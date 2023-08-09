@@ -1,353 +1,421 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
 }
 
 
 /* Estilos personalizados para el header y navbar */
 .header {
-  background-color: transparent; /* Fondo transparente para el header */
-  padding: 10px;
+background-color: transparent; /* Fondo transparente para el header */
+padding: 10px;
 }
 
 .navbar-custom {
-  background-color: transparent; /* Fondo transparente para el navbar */
+background-color: transparent; /* Fondo transparente para el navbar */
 }
 
 
 .navbar-nav {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  margin: 0;
-  font-size: 20px;
+list-style: none;
+display: flex;
+align-items: center;
+margin: 0;
+font-size: 20px;
 
 }
 
 .navbar-nav li {
-  margin-left: 50px; /* Espaciado entre los elementos del menú */
+margin-left: 50px; /* Espaciado entre los elementos del menú */
 }
 
 .navbar-nav li:first-child {
-  margin-left: auto; /* Mover el primer elemento del menú a la derecha */
+margin-left: auto; /* Mover el primer elemento del menú a la derecha */
 }
 
 .navbar-nav a {
-  text-decoration: none;
-  color: #000; /* Color del texto del enlace del menú */
+text-decoration: none;
+color: #000; /* Color del texto del enlace del menú */
 }
 
 
-  
+
 body {
-    font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
-    background-image: url(../img/fondo2.jpg);
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  background-image: url(../img/fondo2.jpg);
 
 }
 
 
 .wrapper {
- width: 100%;
- height: 100vh;
- background-image: url(../img/fondo.jpg.jpg);
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center;
- 
-        
+width: 100%;
+height: 100vh;
+background-image: url(../img/fondo.jpg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+      
 }
 
 .wrapper2 {
-  width: 100%;
-  height: 115vh;
-  background-image: url(../img/fondo2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  
+width: 100%;
+height: 115vh;
+background-image: url(../img/fondo2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
 }
 
 
 
 .brand {
-    margin-top: -7px;
-    color: black;
-    text-decoration: none;
+  margin-top: -7px;
+  color: black;
+  text-decoration: none;
 }
 .brand span {
-    color: #AEBFC4;
+  color: #AEBFC4;
 }
 
 
 
 
 .navbar-nav a:hover {
-    color: black;
-    background-color: #AEBFC4;
-    transition: ease-in .4s;
-    border-radius: 10px;
-    
+  color: black;
+  background-color: #AEBFC4;
+  transition: ease-in .4s;
+  border-radius: 10px;
+  
 }
 
 .main{
-    margin: 0 auto;
-    width: 80vw;
-    height: 80vh;
-    align-items: center;
-    position: relative;
-    
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  align-items: center;
+  position: relative;
+  
 }
 
 .nombre {
-    color: black;
-    line-height: 1.5;
-    position: absolute;
-    top: 40%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-   
+  color: black;
+  line-height: 1.5;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+ 
 }
 
 .bienvenido {
-    color: black;
-    line-height: 3;
-    position: absolute;
-    top: 57%;
-    left: 10%;
-   transform: translate(-50%, -50%);
-   
-   
+  color: black;
+  line-height: 3;
+  position: absolute;
+  top: 57%;
+  left: 10%;
+ transform: translate(-50%, -50%);
+ 
+ 
 }
 .espacio {
-    margin-left: 10px;
+  margin-left: 10px;
 }
-  
-  
+
+
 
 h1 span {
-    color:  #AEBFC4;
+  color:  #AEBFC4;
 }
 
-  button.button-class {
-    background-color: #AEBFC4;
-    color: black;
-    padding: 5px 10px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  button:hover {
-    background-color: white; /* Cambia el color de fondo al pasar el cursor */
-  }
+button.button-class {
+  background-color: #AEBFC4;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: white; /* Cambia el color de fondo al pasar el cursor */
+}
 
 
-  
-  .contenido {
-    max-width: 600px; /* Ancho máximo del contenido */
-    margin: 0 auto; /* Centrar el contenido horizontalmente */
-  }
-  
 
-  
-  .parrafo1 {
-    margin-bottom: 20px; /* Espaciado inferior de los párrafos */
-    margin-top: 100px;
-    font-size: 18px;
-  
-  }
-
-  .parrafo2 {
-    font-size: 18px;
-    
-  }
+.contenido {
+  max-width: 600px; /* Ancho máximo del contenido */
+  margin: 0 auto; /* Centrar el contenido horizontalmente */
+}
 
 
-  .contacto {
-    padding: 40px; /* Espaciado interno de la sección */
-    text-align: center; /* Centrar el contenido */
-    background-image: url(../img/fondo2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-  }
+
+.parrafo1 {
+  margin-bottom: 20px; /* Espaciado inferior de los párrafos */
+  margin-top: 100px;
+  font-size: 18px;
+
+}
+
+.parrafo2 {
+  font-size: 18px;
   
-  .contacto h2 {
-    color: black; /* Color del título */
-    margin-bottom: 20px; /* Espacio inferior del título */
-    margin-top: 20px;
-    font-size: 25px;
-  }
+}
+
+
+.contacto {
+  padding: 40px; /* Espaciado interno de la sección */
+  text-align: center; /* Centrar el contenido */
+  background-image: url(../img/fondo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+}
+
+.contacto h2 {
+  color: black; /* Color del título */
+  margin-bottom: 20px; /* Espacio inferior del título */
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.formulario {
+  max-width: 400px; /* Ancho máximo del formulario */
+  margin: 0 auto; /* Centrar el formulario horizontalmente */
+  margin-bottom: 50px;
+}
+
+.campo {
+  margin-bottom: 20px; /* Espacio entre los campos */
+  text-align: left; /* Alinear el texto a la izquierda */
+}
+
+label {
+  display: block; /* Mostrar el label en una línea separada */
+  margin-bottom: 5px;
+  color: black;
   
-  .formulario {
-    max-width: 400px; /* Ancho máximo del formulario */
-    margin: 0 auto; /* Centrar el formulario horizontalmente */
-    margin-bottom: 50px;
-  }
-  
-  .campo {
-    margin-bottom: 20px; /* Espacio entre los campos */
-    text-align: left; /* Alinear el texto a la izquierda */
-  }
-  
-  label {
-    display: block; /* Mostrar el label en una línea separada */
-    margin-bottom: 5px;
-    color: black;
-    
-  }
- 
-  
+}
+
+
 textarea {
-  width: 100%; /* Ancho completo del campo de entrada de texto */
-  padding: 30px; /* Espaciado interno del campo de entrada de texto */
-  border: none; /* Quitar borde */
-  border-radius: 5px; /* Borde redondeado */
+width: 100%; /* Ancho completo del campo de entrada de texto */
+padding: 30px; /* Espaciado interno del campo de entrada de texto */
+border: none; /* Quitar borde */
+border-radius: 5px; /* Borde redondeado */
 }
 
 #nombre {
-  padding: 8px;
-  border-radius: 5px;
-  border: none;
+padding: 8px;
+border-radius: 5px;
+border: none;
 }
 
 #email {
-  padding: 8px;
-  border-radius: 5px;
-  border: none;
+padding: 8px;
+border-radius: 5px;
+border: none;
 }
 
 
 .contacto button {
-  display: block; /* Mostrar el botón en una línea separada */
-  background-color: #AEBFC4; /* Color de fondo del botón */
-  color: black; /* Color del texto del botón */
-  padding: 10px 20px; /* Espaciado interno del botón */
-  border: none; /* Quitar borde */
-  border-radius: 5px; /* Borde redondeado */
-  cursor: pointer; /* Cambiar el cursor al pasar el mouse por encima del botón */
+display: block; /* Mostrar el botón en una línea separada */
+background-color: #AEBFC4; /* Color de fondo del botón */
+color: black; /* Color del texto del botón */
+padding: 10px 20px; /* Espaciado interno del botón */
+border: none; /* Quitar borde */
+border-radius: 5px; /* Borde redondeado */
+cursor: pointer; /* Cambiar el cursor al pasar el mouse por encima del botón */
 }
 
 .contacto button:hover {
-  background-color: white; /* Color de fondo del botón al pasar el mouse */
+background-color: white; /* Color de fondo del botón al pasar el mouse */
 }
 
 .footer {
-    background-color: #AEBFC4; /* Color de fondo del footer */
-    padding: 20px; /* Espaciado interno del footer */
-    text-align: center; /* Centrar el texto */
-    width: 100vw;
-    height: 100%;
-    font-size: 20px;
-  }
+  background-color: #AEBFC4; /* Color de fondo del footer */
+  padding: 20px; /* Espaciado interno del footer */
+  text-align: center; /* Centrar el texto */
+  width: 100vw;
+  height: 100%;
+  font-size: 20px;
+}
 
-  
+
 
 .main-sobremi {
-   display: flex;
-    align-items: flex-start;
-    background-image: url(../img/fondo2.jpg);
-    gap: 100px;
-    padding: 50px;
-  
+ display: flex;
+  align-items: flex-start;
+  background-image: url(../img/fondo2.jpg);
+  gap: 100px;
+  padding: 50px;
+
 } 
 
 
 .seccion-sobremi {
-  display: flex;
-    max-width: 800px;
-    padding: 20px;
-    background-color: #fff; /* Color de fondo del contenedor */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
-    flex: 1;
-    padding-right: 20px;
+display: flex;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff; /* Color de fondo del contenedor */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
+  flex: 1;
+  padding-right: 20px;
 
-    @media (max-width: 768px) {
-      flex-direction: column; /* Apila los elementos verticalmente */
-      text-align: center; /* Centra el texto */
-    }
+  @media (max-width: 768px) {
+    flex-direction: column; /* Apila los elementos verticalmente */
+    text-align: center; /* Centra el texto */
+  }
 }
 
 .imagen {
-  width: 450px; /* Tamaño deseado para la imagen */
-  max-width: 100%; /* Evita que la imagen desborde del contenedor */
-  margin-right: 10px; /* Añade un pequeño espacio entre la imagen y el texto */
+width: 450px; /* Tamaño deseado para la imagen */
+max-width: 100%; /* Evita que la imagen desborde del contenedor */
+margin-right: 10px; /* Añade un pequeño espacio entre la imagen y el texto */
 
-  @media (max-width: 768px) {
-    margin-right: 0; /* Elimina el espacio lateral para la imagen */
-    margin-bottom: 10px; /* Añade espacio inferior para separar la imagen del texto */
-  }
+@media (max-width: 768px) {
+  margin-right: 0; /* Elimina el espacio lateral para la imagen */
+  margin-bottom: 10px; /* Añade espacio inferior para separar la imagen del texto */
 }
-  
+}
+
 .main-proyectos {
-  display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 50px; /* Espacio entre los proyectos */
-    max-width: 1200px; /* Ajusta el ancho máximo de la sección */
-    margin: 0 auto; /* Centra la sección horizontalmente */
-    padding: 100px; /* Ajusta el relleno de la sección */
-   
+display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 50px; /* Espacio entre los proyectos */
+  max-width: 1200px; /* Ajusta el ancho máximo de la sección */
+  margin: 0 auto; /* Centra la sección horizontalmente */
+  padding: 100px; /* Ajusta el relleno de la sección */
+ 
 }
 
 .proyecto {
-    padding: 50px; /* Ajusta el relleno de cada proyecto */
-    max-width: 800px;
-    padding: 20px;
-    background-color: #fff; /* Color de fondo del contenedor */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
-    flex: 1;
-    padding-right: 20px;
-}
-  
-.comments-section {
+  padding: 50px; /* Ajusta el relleno de cada proyecto */
   max-width: 800px;
-  margin: 0 auto;
   padding: 20px;
-  
+  background-color: #fff; /* Color de fondo del contenedor */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
+  flex: 1;
+  padding-right: 20px;
+}
+
+.comments-section {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+
 }
 
 .comments-list {
+list-style: none;
+padding: 0;
+}
+
+.comment {
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+.comment .author {
+font-weight: bold;
+}
+
+.comment .content {
+margin-top: 5px;
+}
+
+.comment .timestamp {
+color: #777;
+font-size: 12px;
+}
+
+/* Estilos para el formulario de comentarios */
+.comment-form {
+margin-top: 20px;
+}
+
+.comment-form label {
+display: block;
+margin-bottom: 5px;
+}
+
+.comment-form input[type="text"],
+.comment-form textarea {
+width: 100%;
+padding: 5px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.comment-form textarea {
+resize: vertical;
+}
+
+.comment-form input[type="submit"] {
+background-color: #AEBFC4;
+color: black;
+border: none;
+padding: 8px 16px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.comment-form input[type="submit"]:hover {
+background-color: white;
+}
+
+/* Estilos generales de la sección de comentarios */
+.seccion-comentarios {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.lista-comentarios {
   list-style: none;
   padding: 0;
 }
 
-.comment {
+.comentario {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
 }
 
-.comment .author {
+.comentario .autor {
   font-weight: bold;
 }
 
-.comment .content {
+.comentario .contenido {
   margin-top: 5px;
 }
 
-.comment .timestamp {
+.comentario .fecha {
   color: #777;
   font-size: 12px;
 }
 
 /* Estilos para el formulario de comentarios */
-.comment-form {
+.formulario-comentarios {
   margin-top: 20px;
 }
 
-.comment-form label {
+.formulario-comentarios label {
   display: block;
   margin-bottom: 5px;
 }
 
-.comment-form input[type="text"],
-.comment-form textarea {
+.formulario-comentarios input[type="text"],
+.formulario-comentarios textarea {
   width: 100%;
   padding: 5px;
   margin-bottom: 10px;
@@ -355,11 +423,11 @@ textarea {
   border-radius: 5px;
 }
 
-.comment-form textarea {
+.formulario-comentarios textarea {
   resize: vertical;
 }
 
-.comment-form input[type="submit"] {
+.formulario-comentarios input[type="submit"] {
   background-color: #AEBFC4;
   color: black;
   border: none;
@@ -368,120 +436,51 @@ textarea {
   cursor: pointer;
 }
 
-.comment-form input[type="submit"]:hover {
-  background-color: white;
-}
-
-/* Estilos generales de la sección de comentarios */
-.seccion-comentarios {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.lista-comentarios {
-    list-style: none;
-    padding: 0;
-}
-
-.comentario {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-.comentario .autor {
-    font-weight: bold;
-}
-
-.comentario .contenido {
-    margin-top: 5px;
-}
-
-.comentario .fecha {
-    color: #777;
-    font-size: 12px;
-}
-
-/* Estilos para el formulario de comentarios */
-.formulario-comentarios {
-    margin-top: 20px;
-}
-
-.formulario-comentarios label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.formulario-comentarios input[type="text"],
-.formulario-comentarios textarea {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.formulario-comentarios textarea {
-    resize: vertical;
-}
-
-.formulario-comentarios input[type="submit"] {
-    background-color: #AEBFC4;
-    color: black;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 /* Estilos generales de la sección de contacto */
 .contacto {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 80px;
+max-width: 800px;
+margin: 0 auto;
+padding: 80px;
 }
 
 .contacto h2 {
-  text-align: center;
+text-align: center;
 }
 
 .contacto-form {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 .contacto-form label {
-  margin-bottom: 5px;
+margin-bottom: 5px;
 }
 
 .contacto-form input[type="text"],
 .contacto-form input[type="email"],
 .contacto-form textarea {
-  width: 100%;
-  padding: 5px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+width: 100%;
+padding: 5px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
 }
 
 .contacto-form textarea {
-  resize: vertical;
+resize: vertical;
 }
 
 .contacto-form input[type="submit"] {
-  background-color: #AEBFC4;
-  color: black;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 5px;
-  cursor: pointer;
+background-color: #AEBFC4;
+color: black;
+border: none;
+padding: 8px 16px;
+border-radius: 5px;
+cursor: pointer;
 }
 
 .contacto-form input[type="submit"]:hover {
-  background-color: white;
+background-color: white;
 }
-
 
 
