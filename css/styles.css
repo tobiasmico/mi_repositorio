@@ -92,35 +92,17 @@ background-position: center;
   
 }
 
-.main{
-  margin: 0 auto;
-  width: 80vw;
-  height: 80vh;
-  align-items: center;
-  position: relative;
-  
+
+.main .container {
+  max-width: 1200px; /* Establece un ancho máximo para el contenedor */
+  margin: 150px 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px; /* Agrega espacio interno al contenedor */
+
 }
 
-.nombre {
-  color: black;
-  line-height: 1.5;
-  position: absolute;
-  top: 40%;
-  left: 20%;
-  transform: translate(-50%, -50%);
- 
-}
 
-.bienvenido {
-  color: black;
-  line-height: 3;
-  position: absolute;
-  top: 57%;
-  left: 10%;
- transform: translate(-50%, -50%);
- 
- 
-}
+
+
 .espacio {
   margin-left: 10px;
 }
@@ -239,50 +221,37 @@ background-color: white; /* Color de fondo del botón al pasar el mouse */
 
 .footer {
   background-color: #AEBFC4; /* Color de fondo del footer */
-  padding: 20px; /* Espaciado interno del footer */
+  padding: 10px; /* Espaciado interno del footer */
   text-align: center; /* Centrar el texto */
   width: 100vw;
   height: 100%;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 
 
-.main-sobremi {
+.main-sobremi .container {
  display: flex;
   align-items: flex-start;
   background-image: url(../img/fondo2.jpg);
   gap: 100px;
   padding: 50px;
+  padding-top: 90px;
 
 } 
 
 
 .seccion-sobremi {
-display: flex;
-  max-width: 800px;
-  padding: 20px;
-  background-color: #fff; /* Color de fondo del contenedor */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
-  flex: 1;
-  padding-right: 20px;
-
-  @media (max-width: 768px) {
-    flex-direction: column; /* Apila los elementos verticalmente */
-    text-align: center; /* Centra el texto */
-  }
+  display: flex;
+  flex-direction: column; /* Cambia a disposición vertical */
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 17px;
+  max-height: 600px;
+  overflow: auto;
 }
 
-.imagen {
-width: 450px; /* Tamaño deseado para la imagen */
-max-width: 100%; /* Evita que la imagen desborde del contenedor */
-margin-right: 10px; /* Añade un pequeño espacio entre la imagen y el texto */
-
-@media (max-width: 768px) {
-  margin-right: 0; /* Elimina el espacio lateral para la imagen */
-  margin-bottom: 10px; /* Añade espacio inferior para separar la imagen del texto */
-}
-}
 
 .main-proyectos {
 display: grid;
@@ -308,7 +277,12 @@ display: grid;
 max-width: 800px;
 margin: 0 auto;
 padding: 20px;
+font-size: 15px;
 
+}
+
+.comments-section h2 {
+  font-size: 25px;
 }
 
 .comments-list {
@@ -482,5 +456,4 @@ cursor: pointer;
 .contacto-form input[type="submit"]:hover {
 background-color: white;
 }
-
 
