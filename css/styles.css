@@ -259,156 +259,32 @@ display: grid;
   gap: 50px; /* Espacio entre los proyectos */
   max-width: 1200px; /* Ajusta el ancho máximo de la sección */
   margin: 0 auto; /* Centra la sección horizontalmente */
-  padding: 100px; /* Ajusta el relleno de la sección */
- 
+  padding: 30px; /* Ajusta el relleno de la sección */
+  padding-top: 150px;
+  
 }
 
 .proyecto {
-  padding: 50px; /* Ajusta el relleno de cada proyecto */
-  max-width: 800px;
+  font-size: 15px;
   padding: 20px;
   background-color: #fff; /* Color de fondo del contenedor */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
-  flex: 1;
-  padding-right: 20px;
+  
 }
 
-.comments-section {
-max-width: 800px;
-margin: 0 auto;
-padding: 20px;
-font-size: 15px;
-
+.proyecto span {
+  font-weight:  bold;
+  color: #8E9EA4;
 }
 
-.comments-section h2 {
-  font-size: 25px;
-}
-
-.comments-list {
-list-style: none;
-padding: 0;
-}
-
-.comment {
-border: 1px solid #ccc;
-border-radius: 5px;
-padding: 10px;
-margin-bottom: 10px;
-}
-
-.comment .author {
-font-weight: bold;
-}
-
-.comment .content {
-margin-top: 5px;
-}
-
-.comment .timestamp {
-color: #777;
-font-size: 12px;
-}
-
-/* Estilos para el formulario de comentarios */
-.comment-form {
-margin-top: 20px;
-}
-
-.comment-form label {
-display: block;
-margin-bottom: 5px;
-}
-
-.comment-form input[type="text"],
-.comment-form textarea {
-width: 100%;
-padding: 5px;
-margin-bottom: 10px;
-border: 1px solid #ccc;
-border-radius: 5px;
-}
-
-.comment-form textarea {
-resize: vertical;
-}
-
-.comment-form input[type="submit"] {
-background-color: #AEBFC4;
-color: black;
-border: none;
-padding: 8px 16px;
-border-radius: 5px;
-cursor: pointer;
-}
-
-.comment-form input[type="submit"]:hover {
-background-color: white;
-}
-
-/* Estilos generales de la sección de comentarios */
-.seccion-comentarios {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.lista-comentarios {
-  list-style: none;
-  padding: 0;
-}
-
-.comentario {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.comentario .autor {
+.proyecto a {
+  font-size: 20px;
+  color: #8E9EA4;
   font-weight: bold;
 }
 
-.comentario .contenido {
-  margin-top: 5px;
-}
 
-.comentario .fecha {
-  color: #777;
-  font-size: 12px;
-}
 
-/* Estilos para el formulario de comentarios */
-.formulario-comentarios {
-  margin-top: 20px;
-}
-
-.formulario-comentarios label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.formulario-comentarios input[type="text"],
-.formulario-comentarios textarea {
-  width: 100%;
-  padding: 5px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.formulario-comentarios textarea {
-  resize: vertical;
-}
-
-.formulario-comentarios input[type="submit"] {
-  background-color: #AEBFC4;
-  color: black;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
 /* Estilos generales de la sección de contacto */
 .contacto {
@@ -455,5 +331,57 @@ cursor: pointer;
 
 .contacto-form input[type="submit"]:hover {
 background-color: white;
+}
+
+
+@media screen and (max-width: 880px) {
+  * {
+    font-size: 12px;
+  }
+
+  .nombre span {
+    font-size: calc(1.325rem + .9vw);
+  }
+
+  
+  .main-proyectos {
+    gap: 5px;
+    padding: 10px; 
+    padding-top: 5px;
+  }
+  .proyecto {
+    padding: 5px;
+    
+  }
+
+  .proyecto a {
+    font-size: 12px;
+  }
+
+  .footer {
+    padding: 2px;
+    font-size: 2px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1065px) {
+
+  .main-proyectos {
+    gap: 10px;
+    padding: 10px;
+    
+  }
+
+  .proyecto {
+    position: relative;
+    top: 30px;
+    padding: 10px;
+    font-size: 15px;
+    
+  }
+
+  .proyecto a {
+    font-size: 15px;
+  }
 }
 
