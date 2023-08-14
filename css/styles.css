@@ -339,6 +339,14 @@ background-color: white;
     font-size: 12px;
   }
 
+  .main-sobremi .container {
+    
+     gap: 100px;
+     padding: 20px;
+     padding-top: 10px;
+   
+   } 
+
   .nombre span {
     font-size: calc(1.325rem + .9vw);
   }
@@ -382,6 +390,13 @@ background-color: white;
 
   .proyecto a {
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  * {
+    font-size: 10px;
   }
 }
 
