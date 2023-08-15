@@ -337,6 +337,7 @@ background-color: white;
 @media screen and (max-width: 880px) {
   * {
     font-size: 12px;
+    background-image: url(../img/fondo.jpg.jpg);
   }
 
   .main-sobremi .container {
@@ -397,6 +398,7 @@ background-color: white;
 
   * {
     font-size: 10px;
+    background-image: url(../img/fondo.jpg.jpg);
   }
 }
 
