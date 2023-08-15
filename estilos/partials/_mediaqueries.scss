@@ -1,29 +1,214 @@
-@media screen and (min-width: 768px) and (max-width: 1065px) {
+@media screen and (max-width: 479px) {
 
-    .main-proyectos {
-      gap: 10px;
-      padding: 10px;
+  .header {
+    padding: 5px;
+
+    .navbar-nav {
+      display: flex;
+      justify-content: center;
+        margin: 0;
+        font-size: 12px;
+        flex-direction: row;
+        margin-top: 15px;
+       
+        
+    }
+}
+
+  .main .container {
+    padding: 10px; /* Agrega espacio interno al contenedor */
+    font-size: 12px;
+
+    h1 {
+      font-size: 20px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+}
+
+.main-sobremi .container {
+     gap: 100px;
+     padding: 50px;
+     padding-top: 90px;
+   
+
+     .seccion-sobremi {
+        padding: 15px;
+        font-size: 10px;
+        max-height: 600px;
+        overflow: auto;
+
+    }
+} 
+
+.main-proyectos {
+      gap: 10px; /* Espacio entre los proyectos */
+      padding: 12px; /* Ajusta el relleno de la sección */
+      padding-top: 50px;
 
       .proyecto {
-        position: relative;
-        top: 30px;
-        padding: 10px;
-        font-size: 15px;
-
-        .proyecto a {
-            font-size: 15px;
-          }
+        font-size: 10px;
+        padding: 12px;
         
-      }
-      
+        a {
+            font-size: 10px;
+        }
     }
-  
-  }
-  
-  @media screen and (max-width: 400px) {
-  
-    * {
-      font-size: 10px;
       
-    }
+      
+}
+
+.footer {
+
+  p {
+    font-size: 10px;
   }
+}
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+  .header {
+    padding: 5px;
+
+    .navbar-nav {
+      display: flex;
+      justify-content: center;
+        margin: 0;
+        font-size: 18px;
+        flex-direction: row;
+        margin-top: 15px;
+       
+        
+    }
+}
+
+  .main .container {
+    padding: 10px; /* Agrega espacio interno al contenedor */
+    font-size: 18px;
+
+    h1 {
+      font-size: 25px;
+    }
+
+    h2 {
+      font-size: 23px;
+    }
+}
+
+.main-sobremi .container {
+     gap: 100px;
+     padding: 50px;
+     padding-top: 90px;
+   
+
+     .seccion-sobremi {
+        padding: 15px;
+        font-size: 12px;
+        max-height: 800px;
+        overflow: auto;
+
+    }
+} 
+
+.main-proyectos {
+      gap: 10px; /* Espacio entre los proyectos */
+      padding: 12px; /* Ajusta el relleno de la sección */
+      padding-top: 80px;
+
+      .proyecto {
+        font-size: 12px;
+        padding: 12px;
+        
+        a {
+            font-size: 15px;
+        }
+    }
+      
+      
+}
+
+.footer {
+
+  p {
+    font-size: 12px;
+  }
+}
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1199px) {
+  
+  .header {
+    padding: 5px;
+
+    .navbar-nav {
+      display: flex;
+      justify-content: center;
+        margin: 0;
+        font-size: 20px;
+        flex-direction: row;
+        margin-top: 15px;
+        gap: 60px;
+       
+        
+    }
+}
+
+  .main .container {
+    padding: 10px; /* Agrega espacio interno al contenedor */
+    font-size: 20px;
+
+    h1 {
+      font-size: 35px;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+}
+
+.main-sobremi .container {
+     gap: 100px;
+     padding: 50px;
+     padding-top: 90px;
+   
+
+     .seccion-sobremi {
+        padding: 15px;
+        font-size: 15px;
+        max-height: 800px;
+        overflow: auto;
+
+    }
+} 
+
+.main-proyectos {
+      gap: 15px; /* Espacio entre los proyectos */
+      padding: 12px; /* Ajusta el relleno de la sección */
+      padding-top: 100px;
+
+      .proyecto {
+        font-size: 15px;
+        padding: 12px;
+        
+        a {
+            font-size: 20px;
+        }
+    }
+      
+      
+}
+
+.footer {
+
+  p {
+    font-size: 15px;
+  }
+}
+
+}
+  

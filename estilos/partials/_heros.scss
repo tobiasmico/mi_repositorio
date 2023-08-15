@@ -24,14 +24,10 @@
 }
 
 .main-sobremi .container {
-    display: flex;
-     align-items: flex-start;
-     background-image: url(../img/fondo2.jpg);
      gap: 100px;
      padding: 50px;
      padding-top: 90px;
-   
-
+     
      .seccion-sobremi {
         display: flex;
         flex-direction: column; /* Cambia a disposición vertical */
@@ -39,8 +35,7 @@
         background-color: #fff;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         font-size: 17px;
-        max-height: 600px;
-        overflow: auto;
+      
     }
 } 
 
