@@ -382,6 +382,15 @@ background-color: white;
     font-size: 12px;
   }
 
+  .proyecto {
+    font-size: 8px;
+  }
+  
+  .proyecto a {
+    font-size: 10px;
+  }
+
+
   
 
 }
