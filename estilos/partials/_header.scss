@@ -1,0 +1,53 @@
+.header {
+    background-color: transparent; 
+    padding: 10px;
+
+    .brand {
+        margin-top: -7px;
+        color: black;
+        text-decoration: none;
+
+         span {
+            color: $maincolor;
+        }
+
+      }
+    
+
+    .navbar-custom {
+        background-color: transparent; /* Fondo transparente para el navbar */
+    }
+
+    .navbar-nav {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        font-size: 20px;
+        gap: 50px;
+
+        .navbar-nav li {
+            margin-left: 50px; /* Espaciado entre los elementos del menú */
+            
+        
+            .navbar-nav li:first-child {
+                margin-left: auto; /* Mover el primer elemento del menú a la derecha */
+            }
+
+        }
+
+        a {
+            text-decoration: none;
+            color: #000; /* Color del texto del enlace del menú */
+        
+            &:hover {
+                color: black;
+                background-color: $maincolor;
+                transition: ease-in .4s;
+                border-radius: 10px;
+                
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,118 @@
+.main .container {
+    max-width: 1200px; /* Establece un ancho máximo para el contenedor */
+    margin: 150px 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Agrega espacio interno al contenedor */
+
+    h1 span {
+        color:  $maincolor;
+    }
+
+    .button-class {
+        background-color: $maincolor;
+        color: black;
+        padding: 5px 10px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: white; /* Cambia el color de fondo al pasar el cursor */
+        }
+      }
+  
+}
+
+.main-sobremi .container {
+    display: flex;
+     align-items: flex-start;
+     background-image: url(../img/fondo2.jpg);
+     gap: 100px;
+     padding: 50px;
+     padding-top: 90px;
+   
+
+     .seccion-sobremi {
+        display: flex;
+        flex-direction: column; /* Cambia a disposición vertical */
+        padding: 15px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-size: 17px;
+        max-height: 600px;
+        overflow: auto;
+    }
+} 
+
+.main-proyectos {
+    display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 50px; /* Espacio entre los proyectos */
+      max-width: 1200px; /* Ajusta el ancho máximo de la sección */
+      margin: 0 auto; /* Centra la sección horizontalmente */
+      padding: 30px; /* Ajusta el relleno de la sección */
+      padding-top: 150px;
+
+      .proyecto {
+        font-size: 15px;
+        padding: 20px;
+        background-color: #fff; /* Color de fondo del contenedor */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
+
+        span {
+            font-weight:  bold;
+            color: $secundarycolor;
+        }
+        
+        a {
+            font-size: 20px;
+            color: $secundarycolor;
+            font-weight: bold;
+        }
+    }
+      
+      
+}
+
+.contacto {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px;
+
+    h2 {
+        text-align: center;
+    }
+
+    .contacto-form {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            margin-bottom: 5px;
+        }
+
+         input[type="text"],
+         input[type="email"],
+         textarea {
+         width: 100%;
+         padding: 5px;
+         margin-bottom: 10px;
+         border: none;
+         border-radius: 5px;
+         resize: vertical;
+        }   
+
+         input[type="submit"] {
+            background-color: $maincolor;
+            color: black;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: white;
+            }
+        }
+    }
+}

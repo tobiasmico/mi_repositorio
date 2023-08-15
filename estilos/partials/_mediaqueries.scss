@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) and (max-width: 1065px) {
+
+    .main-proyectos {
+      gap: 10px;
+      padding: 10px;
+
+      .proyecto {
+        position: relative;
+        top: 30px;
+        padding: 10px;
+        font-size: 15px;
+
+        .proyecto a {
+            font-size: 15px;
+          }
+        
+      }
+      
+    }
+  
+  }
+  
+  @media screen and (max-width: 400px) {
+  
+    * {
+      font-size: 10px;
+      background-image: url(../img/fondo.jpg.jpg);
+    }
+  }
