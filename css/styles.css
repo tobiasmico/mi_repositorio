@@ -337,7 +337,10 @@ background-color: white;
 @media screen and (max-width: 880px) {
   * {
     font-size: 12px;
-    background-image: url(../img/fondo.jpg.jpg);
+  }
+
+  body {
+    background-image: url(../img/fondo.jpg);
   }
 
   .main-sobremi .container {
@@ -375,6 +378,10 @@ background-color: white;
 
 @media screen and (min-width: 768px) and (max-width: 1065px) {
 
+  body {
+    background-image: url(../img/fondo.jpg);
+  }
+
   .main-proyectos {
     gap: 10px;
     padding: 10px;
@@ -397,8 +404,12 @@ background-color: white;
 @media screen and (max-width: 400px) {
 
   * {
-    font-size: 10px;
-    background-image: url(../img/fondo.jpg.jpg);
+    font-size: 6px;
   }
+
+  body {
+    background-image: url(../img/fondo.jpg);
+  }
+
 }
 
