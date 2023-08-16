@@ -246,7 +246,7 @@ body {
   .main-proyectos {
     gap: 10px; /* Espacio entre los proyectos */
     padding: 12px; /* Ajusta el relleno de la sección */
-    padding-top: 50px;
+    padding-top: 30px;
   }
   .main-proyectos .proyecto {
     font-size: 10px;
