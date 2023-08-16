@@ -28,6 +28,7 @@
      padding: 50px;
      padding-top: 90px;
      
+     
      .seccion-sobremi {
         display: flex;
         flex-direction: column; /* Cambia a disposición vertical */
@@ -35,6 +36,8 @@
         background-color: #fff;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         font-size: 17px;
+        -webkit-animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+        animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
       
     }
 } 
@@ -47,12 +50,15 @@
       margin: 0 auto; /* Centra la sección horizontalmente */
       padding: 30px; /* Ajusta el relleno de la sección */
       padding-top: 150px;
+      
 
       .proyecto {
         font-size: 15px;
         padding: 20px;
         background-color: #fff; /* Color de fondo del contenedor */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
+        box-shadow: $shadow;
+      }
+
 
         span {
             font-weight:  bold;
@@ -66,8 +72,52 @@
         }
     }
       
+    .main-experiencia {
+      display: flex;
+      justify-content: center ;
+      padding: 40px; /* Ajusta el relleno de la sección */
+      padding-top: 80px;
+
+      .experiencia {
+        gap: 20px;
+      }
+
+      .curso {
+        font-size: 15px;
+        padding: 20px;
+        background-color: #fff; /* Color de fondo del contenedor */
+        box-shadow: $shadow;
+
+        .titulo {
+          font-size: 25px;
+          display: flex;
+          justify-content: center;
+          padding: 25px;
+        }
+        
+        h3 {
+          font-size: 18px;
+
+          span {
+            color: $secundarycolor;
+          }
+        }
+
+        h4 {
+          font-size: 15px;
+          color: $secundarycolor;
+        }
+
+        .fechas {
+          display: flex;
+          justify-content: space-between;
+          gap: 30px;
+        }
+
+      }
+    }
       
-}
+
 
 .contacto {
     max-width: 800px;

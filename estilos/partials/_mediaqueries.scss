@@ -101,7 +101,7 @@
 
 .main-sobremi .container {
      gap: 100px;
-     padding: 50px;
+     padding: 10px;
      padding-top: 90px;
    
 
@@ -117,7 +117,7 @@
 .main-proyectos {
       gap: 10px; /* Espacio entre los proyectos */
       padding: 12px; /* Ajusta el relleno de la sección */
-      padding-top: 80px;
+      padding-top: 50px;
 
       .proyecto {
         font-size: 12px;
@@ -139,6 +139,10 @@
 }
 
 }
+
+
+
+  
 
 @media screen and (min-width: 767px) and (max-width: 1199px) {
   
@@ -211,4 +215,6 @@
 }
 
 }
+
+
   

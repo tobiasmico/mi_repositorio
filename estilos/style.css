@@ -12,7 +12,7 @@ body {
   background-image: url(../img/fondo2.jpg);
 }
 
-.wrapper {
+.wrapper, .wrapper2 {
   width: 100%;
   height: 100vh;
   background-image: url(../img/fondo.jpg.jpg);
@@ -22,12 +22,8 @@ body {
 }
 
 .wrapper2 {
-  width: 100%;
   height: 115vh;
   background-image: url(../img/fondo2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .header {
@@ -103,6 +99,7 @@ body {
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-size: 17px;
+  animation: shadow-pop-bl 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
 }
 
 .main-proyectos {
@@ -118,16 +115,53 @@ body {
   font-size: 15px;
   padding: 20px;
   background-color: #fff; /* Color de fondo del contenedor */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
-.main-proyectos .proyecto span {
+.main-proyectos span {
   font-weight: bold;
   color: #8E9EA4;
 }
-.main-proyectos .proyecto a {
+.main-proyectos a {
   font-size: 20px;
   color: #8E9EA4;
   font-weight: bold;
+}
+
+.main-experiencia {
+  display: flex;
+  justify-content: center;
+  padding: 40px; /* Ajusta el relleno de la sección */
+  padding-top: 80px;
+}
+.main-experiencia .experiencia {
+  gap: 20px;
+}
+.main-experiencia .curso {
+  font-size: 15px;
+  padding: 20px;
+  background-color: #fff; /* Color de fondo del contenedor */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+.main-experiencia .curso .titulo {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+.main-experiencia .curso h3 {
+  font-size: 18px;
+}
+.main-experiencia .curso h3 span {
+  color: #8E9EA4;
+}
+.main-experiencia .curso h4 {
+  font-size: 15px;
+  color: #8E9EA4;
+}
+.main-experiencia .curso .fechas {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 .contacto {
@@ -172,8 +206,8 @@ body {
   padding: 10px; /* Espaciado interno del footer */
   text-align: center; /* Centrar el texto */
   width: 100vw;
-  height: 100%;
   font-size: 15px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 479px) {
@@ -249,7 +283,7 @@ body {
   }
   .main-sobremi .container {
     gap: 100px;
-    padding: 50px;
+    padding: 10px;
     padding-top: 90px;
   }
   .main-sobremi .container .seccion-sobremi {
@@ -261,7 +295,7 @@ body {
   .main-proyectos {
     gap: 10px; /* Espacio entre los proyectos */
     padding: 12px; /* Ajusta el relleno de la sección */
-    padding-top: 80px;
+    padding-top: 50px;
   }
   .main-proyectos .proyecto {
     font-size: 12px;
